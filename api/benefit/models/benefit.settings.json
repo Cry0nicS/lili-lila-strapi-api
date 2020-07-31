@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "benefits",
+  "info": {
+    "name": "benefit"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "info": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
